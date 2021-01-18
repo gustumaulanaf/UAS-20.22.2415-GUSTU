@@ -5,6 +5,6 @@
     <string name="followers">Followers</string>
     <string name="following">Following</string>
     <string name="hint">Type here</string>
-    <string name="pilih">Pilih</string>
-    <string name="choose_lang">Pilih bahasa</string>
+    <string name="pilih">Select</string>
+    <string name="choose_lang">Select language</string>
 </resources>

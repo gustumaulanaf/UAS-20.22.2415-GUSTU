@@ -1,10 +1,11 @@
-package com.gustu.github
+package com.gustu.github.ui
 
 import android.content.Intent
 import android.content.res.Configuration
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.gustu.github.ui.MainActivity
+import androidx.core.content.ContextCompat
+import com.gustu.github.R
 import com.gustu.github.utils.SharedPrefUtil
 import kotlinx.android.synthetic.main.activity_language.*
 import java.util.*
@@ -30,6 +31,7 @@ class LanguageActivity : AppCompatActivity() {
                 baseContext.resources.displayMetrics
             )
         }
+        setTitle(resources.getString(R.string.choose_lang))
         setContentView(R.layout.activity_language)
         btPilihIndonesia.setOnClickListener {
             SharedPrefUtil.saveBoolean("isIndonesia", true)

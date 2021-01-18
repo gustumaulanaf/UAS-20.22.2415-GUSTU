@@ -6,5 +6,5 @@
     <string name="hint">Type here</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="pilih">Select</string>
-    <string name="choose_lang">Choose Language</string>
+    <string name="choose_lang">Select Language</string>
 </resources>
