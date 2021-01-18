@@ -14,7 +14,7 @@
         android:id="@+id/searchMain"
         android:background="@drawable/box_shape"
         app:iconifiedByDefault="false"
-        app:queryHint="Type here" />
+        app:queryHint="@string/hint" />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvUsers"
         android:layout_width="match_parent"

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gustu 20.22.2415</string>
+    <string name="followers">Pengikut</string>
+    <string name="following">Mengikuti</string>
+    <string name="hint">Ketik Disini</string>
+    <string name="hello_blank_fragment">Hay fragmen kosong</string>
+    <string name="pilih">Pilih</string>
+    <string name="choose_lang">Pilih bahasa</string>
+</resources>

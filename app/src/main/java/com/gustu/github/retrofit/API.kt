@@ -24,7 +24,7 @@ interface API {
         @Path("username") username: String
     ): Call<List<FollowResponse>>
 
-    @GET("users/username/following")
+    @GET("users/{username}/following")
     fun following(
         @Path("username") username: String
     ): Call<List<FollowResponse>>
